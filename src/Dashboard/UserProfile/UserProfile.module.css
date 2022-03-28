@@ -1,0 +1,46 @@
+.item  {
+     width: 10%;
+     box-sizing: border-box;
+     flex-grow: 1;
+     padding: 0.8em 1.2em;
+     overflow: hidden;
+     list-style: none;
+}
+.desc  { 
+    width: 70%;
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 0.8em 1.2em;
+    overflow: hidden;
+    list-style: none; 
+}
+.profileTable {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 3em 0;
+    padding: 0;
+    /* box-shadow: 0 0 40px rgba(0,0,0,0.2); */
+    background-color: rgb(255, 255, 255);
+}
+.profileTableRow {
+        width: 100%;
+        display: flex;
+}
+.btn {
+    padding: 0.2rem 0.4rem;
+    font-size: 14px;
+    opacity: 1;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(57, 104, 206);
+    cursor: pointer;
+    color: #ffffff;
+    margin:0 auto;
+    display:block;
+    margin-top: 4%;
+
+  }
+  .btn:hover {
+    background-color: rgb(28, 51, 102);
+  }
+
